@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+main {
+    margin-top: 150px;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the entire scrollbar */
+}
+
+/* Scrollbar Thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: #BBD6B5; /* Color of the scroll thumb */
+    border-radius: 10px; /* Rounded edges for a smooth look */
+    border: 2px solid white; /* Optional: Add a border around the thumb */
+}
+
+/* Scrollbar Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Navbar-------------------------------------- */
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-between;
+    color: #2D2D2D;
+    z-index: 1000; /* To ensure it stays above other elements */
+    padding: 20px; /* Optional: Adjust padding to give space */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+
+a {
+    text-decoration: none;
+    color: #2D2D2D;
+    font-weight: 500;
+}
+
+.links-container {
+    display: flex;
+    gap: 70px;
+}
+
+.login-btn {
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #C8DFC3;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    border: 2px solid #2D2D2D;
+}
+
+.img-container {
+    width: 130px;
+    margin-left: 20px;
+}
+
+
+/* Main-------------------------------------- */
+
+main {
+    color: #2D2D2D;
+}
+
+.about-text {
+    width: 50%;
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+
+.main-heading {
+    font-size: 80px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.main-paragraph {
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+span {
+    color: #BBD6B5;
+}
+
+.about-main-btn {
+    padding: 15px 40px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    background-color: #2D2D2D;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: all 0.5s ease; 
+}
+
+.about-main-btn:hover {
+    background-color: #BBD6B5;
+    color: white;
+    /* outline: 2px solid #BBD6B5; */
+    box-shadow: 0 0 25px 15px #bbd6b576;
+}
+
+.option-button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.option-button {
+    padding: 15px 40px;
+    color: #2D2D2D;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.5s ease; 
+}
+
+.option-button:hover {
+    padding: 15px 45px;
+    color: white;
+    background-color: #2D2D2D; 
+}
+
+
+.about-img {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-img img {
+    width: 100%;
+    height: 540px;
+    border-radius: 50px;
+}
+
+.about {
+    display: flex;
+}
+
+.filler {
+    height: 540px;
+    width: 100px;
+    background-color: #AEC7AB;
+    background-image: url(./images/homepage.jpeg);
+    background-position: right center;
+    background-size: auto 540px;
+    margin-left: 40px;
+    border-radius: 50px;
+}
+
+
+/* Second main heading-------------------------------------- */
+
+.big-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.big-text {
+    font-size: 80px;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.avacado {
+    position: absolute;
+    margin: -520px -500px 0 0;
+    width: 100px;
+
+}
+
+.watermelon {
+    width: 110px;
+    margin: 30px 500px 0 0;
+    position: absolute;
+}
