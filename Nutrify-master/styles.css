@@ -187,6 +187,7 @@ span {
     align-items: center;
     justify-content: center;
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .big-text {
@@ -207,4 +208,122 @@ span {
     width: 110px;
     margin: 30px 500px 0 0;
     position: absolute;
+}
+
+
+/* Main-------------------------------------- */
+.shop-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.shop-info-text {
+    width: 50%;
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+
+.shop-info-img img {
+    width: 500px;
+    height: auto;
+
+}
+
+.shop-info-img {
+    margin-top: -100px;
+}
+
+.shop-info-heading {
+    font-size: 60px;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.shop-info-description {
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+
+/* Product Page-------------------------------------- */
+
+.shop-product {
+    font-size: 36px;
+    text-align: center;
+    color: #2D2D2D;
+}
+
+.products-container {
+    margin: 200px 100px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 200px;
+
+}
+
+.product-img {
+    width: 150px;
+    margin-top: -150px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    text-align: center;
+    margin: 10px 0 20px 0;
+    width: 250px;
+}
+
+.add-to-cart {
+    padding: 15px 30px;
+    color: #2D2D2D;
+    border-radius: 30px;
+    border: 1p white;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 0.5s ease; 
+}
+
+.add-to-cart:hover {
+
+    /* outline: 2px solid #BBD6B5; */
+    box-shadow: 0 0 25px 15px #2d2d2d20;
+}
+
+.buy-now {
+    padding: 15px 40px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    background-color: #2D2D2D;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 0.5s ease; 
+}
+
+.buy-now:hover {
+    box-shadow: 0 0 25px 15px #2d2d2d20;
 }
